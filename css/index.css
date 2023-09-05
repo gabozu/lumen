@@ -1,0 +1,773 @@
+/* Website template by freewebsitetemplates.com */
+/*------------------------- Layout styles ------------------------*/ 
+body{
+	background-color: #423151;
+	margin: 0;
+}
+p a{
+	text-decoration: underline;
+	color: #777777;
+}
+
+/*-------------------------	Font Face --------------------------*/
+@font-face {
+	font-family: 'GomaWesternRegular';
+	src: url('../fonts/goma-western-webfont.eot');
+	src: url('../fonts/goma-western-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/goma-western-webfont.woff') format('woff'),
+		url('../fonts/goma-western-webfont.ttf') format('truetype'),
+		url('../fonts/goma-western-webfont.svg#GomaWesternRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*-------------------------	Header --------------------------*/
+#header{
+	width: 960px;
+	margin: 0 auto;
+	padding: 17px 0 0 0;
+}
+#header ul#navigation{
+	margin: 0;
+	padding: 0;
+	border-width: 1px;
+	border-style: solid none;
+	border-color: #4a4a4a;
+	overflow: hidden;
+	height: 68px;
+	list-style: none;
+	padding: 0 37px;
+}
+#header ul#navigation li{
+	float: left;
+	margin: 0 0 0 60px;
+}
+#header ul#navigation li a{
+	font-family: 'GomaWesternRegular';
+	font-size: 20px;
+	color: #797979;
+	text-decoration: none;
+	line-height: 70px;
+}
+#header ul#navigation li.first{
+	margin: 0;
+}
+#header ul#navigation li.selected a#link1{
+	background: url(../img/inicio.jpg) no-repeat center top;
+	background-size: 74px 26px;
+	height: 26px;
+	width: 67px;
+	display: block;
+	margin: 20px 17px 0 0;
+	color: transparent;
+}
+#header ul#navigation li.selected a#link2{
+	background: url(../img/selected-portfolio.gif) no-repeat center top;
+	height: 28px;
+	width: 120px;
+	display: block;
+	margin: 20px 0 0 0;
+	color: transparent;
+}
+#header ul#navigation li.selected a#link3{
+	background: url(../img/nosotros.jpg) no-repeat center top;
+	background-size: 74px 26px;
+	height: 26px;
+	width: 74px;
+	display: block;
+	margin: 20px 23px 0 8px;
+	color: transparent;
+}
+#header ul#navigation li.selected a#link4{
+	background: url(../img/pedido.jpg) no-repeat center top;
+	background-size: 74px 26px;
+	height: 26px;
+	width: 75px;
+	display: block;
+	margin: 20px 6px 0 7px;
+	color: transparent;
+}
+#header ul#navigation li.selected a#link5{
+	background: url(../img/login.jpg) no-repeat center top;
+	background-size: 74px 26px;
+	height: 26px;
+	width: 67px;
+	display: block;
+	margin: 20px 8px 0 9px;
+	color: transparent;
+}
+#header ul#navigation li.selected a#link6{
+	background: url(../img/tips.jpg) no-repeat center top;
+	background-size: 74px 26px;
+	height: 26px;
+	width: 74px;
+	display: block;
+	margin: 20px 7px 0 7px;
+	color: transparent;
+}
+#header ul#navigation li.selected a#link7{
+	background: url(../img/contactanos.jpg) no-repeat center top;
+	background-size: 74px 26px;
+	color: transparent;
+	display: block;
+	height: 29px;
+	margin: 20px 0 0;
+	width: 136px;
+}
+#header ul#navigation li a:hover{
+	color: #fff;
+}
+#header a#logo{
+	display: block;
+	margin: 53px 0 0;
+	text-align: center;
+}
+#header a#logo img{
+	border: 0;
+}
+
+/*-------------------------	Content --------------------------*/
+#content{
+	margin: 56px auto;
+	width: 960px;
+	overflow: hidden;
+}
+#content div#featured{
+	width: 710px;
+	float: left;
+	position: relative;
+}
+#content div#featured h2{
+	background: url(../img/latest-work.gif) no-repeat;
+	width: 287px;
+	height: 104px;
+	margin: 0;
+	text-indent: -99999px;
+	position: relative;
+	z-index: 2;
+}
+#content div#featured ul#section1{
+	width: 140px;
+	list-style: none;
+	margin: 0 20px 0 0;
+	padding: 10px 0 0 10px;
+	float: left;
+}
+#content div#featured ul#section1 li{
+	margin: 0 0 22px 0;
+}
+#content div#featured ul#section1 li a img{
+	border: 1px solid #2d2d2d;
+}
+#content div#featured ul#section1 li a img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+#content div#featured a#figure{
+	float: left;
+	margin: -83px 0 0 0;
+}
+#content div#featured a#figure img{
+	border: 1px solid #2d2d2d;
+}
+#content div#featured ul#section2{
+	clear: both;
+	list-style: none;
+	height: 180px;
+	background: url(../img/vela-blackfont.jpg) no-repeat left top #000;
+	background-size: 191px 180px;
+	padding: 20px 0 0 169px;
+	_padding: 0 0 0 151px;
+	margin: 0 0 0 10px;
+}
+#content div#featured ul#section2 li{
+	float: left;
+	margin: 0 0 0 20px;
+}
+#content div#featured ul#section2 li a{
+	margin: 21px 0 0 0;
+	display: block;
+}
+#content div#featured ul#section2 li a img{
+	border: 1px solid #2d2d2d;
+}
+#content div#featured ul#section2 li a img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+#content div#sidebar{
+	float: left;
+	width: 230px;
+	margin: 0 0 0 20px;
+} 
+#content div#sidebar div#news,#content div#sidebar div#blogs{
+	height: auto;
+	text-align: right;
+}
+#content div#sidebar div#news div.first,#content div#sidebar div#blogs div.first{
+	background: none;
+}
+#content div#sidebar div#news div,#content div#sidebar div#blogs div{
+	background: url(../img/border-horizontal.gif) repeat-x left top;
+	margin: 0;
+	padding: 11px 0;
+	width: auto;
+}
+#content div#sidebar div#news h3{
+	margin: 0;
+	text-align: left;
+	padding: 15px 0 0;
+}
+#content div#sidebar div#news h3 a,#content div#sidebar div#blogs h3 a{
+	background: none;
+	color: #fff;
+	font-size: 34px;
+	margin: 0;
+}
+#content div#sidebar div#news h3 a:hover,#content div#sidebar div#blogs h3 a:hover,#content div#sidebar div#news p a:hover,#content div#sidebar div#blogs p a:hover{
+	background: none;
+}
+#content div#sidebar div#news p,#content div#sidebar div#blogs p{
+	color: #777777;
+	font-size: 14px;
+	font-family: arial;
+	text-align: justify;
+	margin: 0;
+	line-height: 24px;
+}
+#content div#sidebar div#news p a,#content div#sidebar div#blogs p a{
+	font-family: arial;
+	text-decoration: underline;
+	background: none;
+	display: inline;
+	padding: 0;
+	line-height: 0;
+}
+#content div#sidebar div#news a,#content div#sidebar div#blogs a{
+	font-family: 'GomaWesternRegular';
+	color: #656565;
+	font-size: 14px;
+	text-decoration: none;
+	background: url(../img/icons.gif) no-repeat 33px -577px;
+	padding: 0 15px 0 0;
+	height: 15px;
+	margin: 20px 0 0;
+	line-height: 45px;
+}
+#content div#sidebar div#news a:hover,#content div#sidebar div#blogs a:hover{
+	color: #fff;
+	background: url(../img/icons.gif) no-repeat 33px -598px;
+}
+#content div#sidebar div#blogs h3{
+	margin: 0;
+	text-align: left;
+	padding: 35px 0 0;
+}
+#content div#portfolio{
+	position: relative;
+}
+#content div#portfolio h2{
+	background: url(../img/portfolio.jpg) no-repeat -5px -1px;
+	width: 278px;
+	height: 107px;
+	text-indent: -99999px;
+	margin: 0;
+	position: relative;
+	z-index: 2;
+}
+
+#content div#imgedit{
+	background-color: #000;
+}
+#buttonedit{
+	position: relative;
+}
+#content div#portfolio ul{
+	padding: 0;
+	margin: -55px 0 0;
+	z-index: 1;
+	overflow: hidden;
+	list-style: none;
+}
+#content div#portfolio ul li{
+	float: left;
+	padding: 25px 25px 22px;
+}
+#content div#portfolio ul li a img{
+	border: 1px solid #2d2d2d;
+}	
+#content div#portfolio ul li a img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}	
+#content div#about{
+	width: auto;
+}
+#content div#about div.first{
+	width: 520px;
+	margin: 0;
+}
+#content div#about div{
+	width: 404px;
+	margin: 0 0 0 36px;
+	float: left;
+}
+#content div#about div ul{
+	margin: 0;
+	padding: 75px 0 0;
+	list-style: none;
+}
+#content div#about div ul li a{
+	display: block;
+	float: left;
+}
+#content div#about div ul li a img{
+	margin: 0 16px 0 0;
+	border: 1px solid #2d2d2d;
+}
+#content div#about div ul li a img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+#content div#about div ul li h4{
+	float: left;
+	margin: 0 0 5px;
+	font-family: arial;
+	font-size: 14px;
+	color: #fff;
+	width: 268px;
+	_width: 264px;
+}
+#content div#about div ul li span{
+	font-family: arial;
+	font-size: 14px;
+	color: #777777;
+	font-style: italic;
+}
+#content div#about div ul li p{
+	line-height: 26px;
+}
+#content div#about h2{
+	background: url(../img/nosotros.jpg) no-repeat;
+	background-size: 230px 104px;
+	width: 230px;
+	height: 104px;
+	text-indent: -99999px;
+	margin: 0 0 25px;
+}
+#content div#about h3{
+	font-family: arial;
+	color: #fff;
+	font-size: 14px;
+	margin: 0 0 0 10px;
+}
+#content div#about p{
+	font-family: arial;
+	color: #777777;
+	font-size: 14px;
+	margin: 5px 0 25px 10px;
+	line-height: 21px;
+	text-align: justify;
+}
+#content div#about p a:hover{
+	color: #fff;
+}
+#content div#rates{
+	height: auto;
+	width: auto;
+}
+#content div#rates h2{
+	background: url(../img/pedido.jpg) no-repeat;
+	background-size: 230px 104px;
+	width: 230px;
+	height: 104px;
+	text-indent: -99999px;
+	margin: 0;
+}
+#content div#rates div.rates{
+	float: left;
+	width: auto;
+	margin: 0 90px 0 10px;
+	clear: none;
+	padding: 0;
+}
+#content div#rates div.rates h4{
+	font-family: arial;
+	font-size: 17px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 30px 0 10px;
+}
+#content div#rates div.rates td.type{
+	color: #777777;
+	font-family: arial;
+	font-size: 14px;
+	line-height: 26px;
+	padding: 0;
+	width: 260px;
+}
+#content div#rates div.rates td.price{
+	color: #777777;
+	font-family: arial;
+	font-size: 14px;
+	line-height: 26px;
+	padding: 0;
+	width: 70px;
+}
+#content div#rates div{
+	clear: both;
+	padding: 50px 0 0 0;
+}
+#content div#rates div h3{
+	color: #777777;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 0 0 0 10px;
+	_padding: 0 0 0 20px;
+	width: 600px;
+}
+#content div#rates div ul{
+	color: #777777;
+	*list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0 0 0 25px;
+	*padding: 0 0 0 10px;
+	_padding: 0 0 0 20px;
+}
+#content div#rates div ul li{
+	width: 725px;
+	padding: 0;
+	margin: 0;
+}
+#content div#rates div ul li p{
+	margin: 0;
+	line-height: 26px;
+	font-family: arial;
+	font-size: 14px;
+	margin: 0 0 10px;	
+}
+#content div#rates div ul li p a:hover{
+	color: #fff;
+}
+#content div#news div.first{
+	width: 685px;
+}
+#content div#news div.first h2{
+	background: url(../img/login.jpg) no-repeat;
+	background-size: 230px 104px;
+	width: 230px;
+	height: 104px;
+	text-indent: -99999px;
+	margin: 0;
+}
+#content div#news div.first h3{
+	font-family: arial;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 25px 0 0 10px;
+	line-height: 26px;
+	border: 0;
+	padding: 0;
+}
+#content div#news div.first h3 a{
+	color: #777777;
+}
+#content div#news div.first h3 a:hover{
+	color: #fff;
+}
+#content div#news div.first span,#content div#blog div.first span{
+	font-family: arial;
+	font-size: 12px;
+	color: #777777;
+	margin: 0 0 20px 10px;
+	line-height: 26px;
+	border-width: 1px;
+	border-style: none none dashed none;
+	border-color: #777777;
+	display: block;
+	padding: 0 0 7px;
+}
+#content div#news div.first p,#content div#blog div.first p{
+	font-family: arial;
+	color: #777777;
+	font-size: 14px;
+	margin: 5px 0 20px 10px;
+	line-height: 26px;
+	text-align: justify;
+}
+#content div#news div.first p a:hover,#content div#blog div.first p a:hover{
+	color: #fff;
+}
+#content div#news div,#content div#blog div{
+	float: left;
+	margin: 0 40px 0 0;
+	width: 195px;
+}
+#content div#news div h3,#content div#blog div h3{
+	font-family: arial;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 128px 0 0;
+	line-height: 26px;
+	border-width: 1px;
+	border-style: none none dashed none;
+	border-color: #777777;
+	padding: 0 0 15px
+}
+#content div#news div ul,#content div#blog div ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#content div#news div ul li.first,#content div#blog div ul li.first{
+	background: none;
+}
+#content div#news div ul li,#content div#blog div ul li{
+	background: url(../img/border-horizontal.gif) repeat-x;
+}
+#content div#news div ul li p,#content div#blog div ul li p{
+	margin: 0;
+	padding: 6px 0;
+	font-family: arial;
+	color: #777777;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: justify;
+}
+#content div#news div ul li p a:hover,#content div#blog div ul li p a:hover{
+	color: #fff;
+}
+#content div#blog div.first{
+	width: 685px;
+}
+#content div#blog div.first h2{
+	background: url(../img/tips.jpg) no-repeat;
+	background-size: 230px 104px;
+	width: 220px;
+	height: 104px;
+	text-indent: -99999px;
+	margin: 0;
+}
+#content div#blog div.first h3{
+	font-family: arial;
+	font-size: 14px;
+	color: #fff;
+	margin: 25px 0 0 10px;
+	line-height: 26px;
+	border: 0;
+	padding: 0;
+	text-align: justify;
+}
+#content div.contact{
+	width: 845px;
+}
+#content div.contact h2{
+	background: url(../img/contactanos.jpg) no-repeat;
+	background-size: 230px 104px;
+	width: 269px;
+	height: 104px;
+	text-indent: -99999px;
+}
+#content div.contact p{
+	margin: 0 0 0 10px;
+	padding: 6px 0;
+	font-family: arial;
+	color: #777777;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: justify;
+}
+#content div.contact p a:hover{
+	color: #fff;
+}
+#content div.contact ul{
+	color: #777777;
+	padding: 0 0 0 25px;
+	margin: 0;
+	width: 545px;
+	float: left;
+}
+#content div.contact div.contact{
+	float: left;
+	margin: 5px 0 0;
+}
+#content div.contact div.contact a{
+	display: block;
+	padding: 0 0 0 46px;
+	color: #737373;
+	font-family: arial;
+	font-size: 14px;
+	text-decoration: none;
+	width: auto;
+	margin: 18px 0 0 0;
+	line-height: 24px;
+}
+#content div.contact div.contact a:hover{
+	color: #fff;
+}
+#content div.contact div.contact a#page-email{
+	background: url(../img/icons.gif) no-repeat 0 -282px;
+	height: 22px;
+	margin: 0;
+}
+#content div.contact div.contact a#page-email:hover{
+	background: url(../img/icons.gif) no-repeat 0 -427px;
+}
+#content div.contact div.contact a#page-phone{
+	background: url(../img/icons.gif) no-repeat 0 -305px;
+	height: 26px;
+}
+#content div.contact div.contact a#page-phone:hover{
+	background: url(../img/icons.gif) no-repeat 0 -450px;
+}
+#content div.contact div.contact a#page-address{
+	background: url(../img/icons.gif) no-repeat 0 -332px;
+	height: 41px;
+	line-height: 20px;
+}
+#content div.contact div.contact a#page-address:hover{
+	background: url(../img/icons.gif) no-repeat 0 -477px;
+	height: 41px;
+}
+#content div.contact div.contact a#page-facebook{
+	background: url(../img/icons.gif) no-repeat 0 -374px;
+	height: 27px;
+	float: left;
+}
+#content div.contact div.contact a#page-facebook:hover{
+	background: url(../img/icons.gif) no-repeat 0 -519px;
+}
+#content div.contact div.contact a#page-twitter{
+	background: url(../img/icons.gif) no-repeat 0 -402px;
+	height: 25px;
+	float: left;
+	margin: 18px 0 0 40px;
+}
+#content div.contact div.contact a#page-twitter:hover{
+	background: url(../img/icons.gif) no-repeat 0 -547px;
+}
+
+/*-------------------------	Footer --------------------------*/
+#footer{
+	clear: both;
+	background: url(../img/border-horizontal.gif) repeat-x #302f2f;
+	padding: 36px 0 0 0;
+	height: auto;
+}
+#footer div{
+	width: 950px;
+	margin: 0 auto;
+	padding: 0 0 0 10px;
+}
+#footer div div{
+	width: auto;
+	float: left;
+	margin: 0 0 0 40px;
+	*margin: 0 0 0 36px;
+	padding: 0;
+}
+#footer div div.first{
+	margin: 0;
+}
+#footer div div h4{
+	margin: 0 0 23px 0;
+	font-family: 'GomaWesternRegular';
+	font-size: 25px;
+	color: #fff;
+}
+#footer div div h4 a{
+	color: #fff;
+	text-decoration: none;
+}
+#footer div div a img{
+	border: 1px solid #505050;
+}
+#footer div div span{
+	display: block;
+	font-family: arial;
+	font-size: 14px;
+	margin: 0;
+	text-align: center;
+	color: #737373;
+}
+#footer div div p{
+	color: #737373;
+	font-family: arial;
+	font-size: 14px;
+	line-height: 17px;
+	margin: 18px 0 0;
+	width: 293px;
+	text-align: justify;
+	padding: 0;
+}
+#footer div div#contact h4{
+	margin: 0 0 30px 0;
+}
+#footer div div#contact a{
+	display: block;
+	padding: 0 0 0 46px;
+	color: #737373;
+	font-family: arial;
+	font-size: 14px;
+	text-decoration: none;
+	width: auto;
+	margin: 18px 0 0 0;
+	line-height: 24px;
+}
+#footer div div#contact a:hover{
+	color: #fff;
+}
+#footer div div#contact a#email{
+	background: url(../img/icons.gif) no-repeat;
+	height: 22px;
+	margin: 0;
+}
+#footer div div#contact a#email:hover{
+	background: url(../img/icons.gif) no-repeat 0 -141px;
+}
+#footer div div#contact a#phone{
+	background: url(../img/icons.gif) no-repeat 0 -23px;
+	height: 24px;
+}
+#footer div div#contact a#phone:hover{
+	background: url(../img/icons.gif) no-repeat 0 -164px;
+}
+#footer div div#contact a#address{
+	background: url(../img/icons.gif) no-repeat 0 -48px;
+	height: 40px;
+	line-height: 20px;
+}
+#footer div div#contact a#address:hover{
+	background: url(../img/icons.gif) no-repeat 0 -189px;
+}
+#footer div div#contact a#facebook{
+	background: url(../img/icons.gif) no-repeat 0 -89px;
+	height: 26px;
+	float: left;
+}
+#footer div div#contact a#facebook:hover{
+	background: url(../img/icons.gif) no-repeat 0 -230px;
+}
+#footer div div#contact a#twitter{
+	background: url(../img/icons.gif) no-repeat 0 -116px;
+	height: 24px;
+	float: left;
+	margin: 18px 0 0 40px;
+}
+#footer div div#contact a#twitter:hover{
+	background: url(../img/icons.gif) no-repeat 0 -257px;
+}
+#footer p{
+	clear: both;
+	text-align: center;
+	color: #737373;
+	font-family: arial;
+	font-size: 14px;
+	margin: 0;
+	padding: 40px 0 30px 0;
+}
